@@ -105,7 +105,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #020230;
+  background-color: #10002b;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -127,7 +127,7 @@ a:focus {
 
 .navbar-brand span {
   font-weight: bold;
-  color: #bebebe;
+  color: #fefcfb;
   font-size: 24px;
   text-transform: uppercase;
 }
@@ -139,7 +139,7 @@ a:focus {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 3px 15px;
   margin: 10px 15px;
-  color: #bebebe;
+  color: #fefcfb;
   text-align: center;
   text-transform: uppercase;
 }
@@ -149,7 +149,7 @@ a:focus {
   height: 35px;
   padding: 0;
   border: none;
-  color: #bebebe;
+  color: #fefcfb;
   margin: 0 20px;
 }
 
@@ -169,7 +169,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #bebebe;
+  background-color: #fefcfb;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -184,7 +184,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #bebebe;
+  background-color: #fefcfb;
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
@@ -246,7 +246,7 @@ a:focus {
 }
 
 .quote_btn-container a {
-  color: #bebebe;
+  color: #fefcfb;
   text-transform: uppercase;
 }
 
@@ -282,7 +282,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
-  color: #bebebe;
+  color: #fefcfb;
 }
 
 .slider_section .detail-box h1 {
@@ -413,6 +413,7 @@ a:focus {
 
 .service_section {
   position: relative;
+  background-color: #10002b;
 }
 
 .service_section .box {
@@ -420,6 +421,7 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 4px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -477,13 +479,14 @@ a:focus {
 }
 
 .service_section .box:hover .img-box {
-  background-color: #ff4646;
+  background-color: #10002b;
+  transition: all 1s ease;
 }
 
 .server_section {
-  background: linear-gradient(110deg, transparent 25%, #020230 25%);
+  background: linear-gradient(110deg, transparent 25%, #ffffff 25%);
   padding: 55px 0;
-  color: #ffffff;
+  color: #000000;
 }
 
 .server_section .row {
@@ -829,7 +832,7 @@ a:focus {
   padding-left: 15px;
   background-color: transparent;
   outline: none;
-  color: #101010;
+  color: #ffffff;
 }
 
 .contact_section .form_container input::-webkit-input-placeholder {
@@ -882,7 +885,7 @@ a:focus {
 
 /* info section */
 .info_section {
-  background-color: #020230;
+  background-color: #10002b;
   color: #ffffff;
 }
 
@@ -1021,7 +1024,7 @@ a:focus {
 /* footer section*/
 .footer_section {
   position: relative;
-  background-color: #020230;
+  background-color: #10002b;
   text-align: center;
 }
 
